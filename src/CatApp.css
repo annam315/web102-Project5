@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.cat-title {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.896);
+}
+
+.card {
+  width: 350px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cat-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card-content p {
+  margin: 5px 0;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.clickable {
+  cursor: pointer;
+  color: black;
+  text-decoration: underline;
+}
+
+.clickable:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.ban-list {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ff4d4d;
+  background-color: #ffe6e6;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+}
+
+.banned-item {
+  color: #d9534f;
+  cursor: pointer;
+}
+
+.banned-item:hover {
+  text-decoration: line-through;
+}
